@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Forum:regular);
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import "_root";
+@import "_elements";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+body {
+    scroll-behavior: smooth;
+    font-size: 14px;
+}
+img {
+    object-fit: cover;
+}
+// .info {
+//     background-image: url("../img/bg/main_bg.png");
+//     background-repeat: no-repeat;
+//     background-size: 100%;
+//     min-height: 100vh;
+//     padding: 10px 0;
+// }
+.navbar {
+    margin-top: 15px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.nav {
+    &__links {
+        display: flex;
+        flex-direction: column;
+        width: 53%;
+    }
+    &__links-head {
+        color: #fff;
+        nav {
+            ul {
+                display: flex;
+                justify-content: space-between;
+                li {
+                    list-style: none;
+                    p {
+                        font-family: "Mulish";
+                        color: $gray;
+                    }
+                    a {
+                        text-decoration: none;
+                        margin-left: 50px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: "Mulish";
+                    }
+                }
+            }
+        }
+    }
+    &__links-body {
+        padding-top: 20px;
+        nav {
+            ul {
+                display: flex;
+                justify-content: space-between;
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        font-family: "Forum";
+                        font-size: 19px;
+                        color: $gray;
+                        transition: all .3s ease;
+                        &:hover {
+                            color: $gold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__tel {
+        display: flex;
+        flex-direction: column;
+    }
+    &__tel-get {
+        button {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+    }
+}

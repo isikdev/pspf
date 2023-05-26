@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Forum:regular);
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+.email__active {
+  color: #FFDF74;
+}
+
+.email__dashed {
+  border-bottom: 1px dashed #FFDF74;
+}
+
+.gray {
+  color: #96A1AC;
+}
+
+.info__solid {
+  border-bottom: 1px solid #96A1AC;
+}
+
+.solid__text {
+  font-family: "Forum";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 31px;
+  color: #fff;
+}
+
+.main__btn {
+  box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.1490196078);
+  padding: 12px 30px;
+  border-radius: 100px;
+  border: 0 none;
+  background: linear-gradient(0deg, #B1840E -11.43%, #FFE175 57.73%, #A77C22 109.19%, #FFF58C 158.08%, #8D5A07 192.86%);
+  cursor: pointer;
+  font-family: "Mulish";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-size: 14px;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.navbar {
+  margin-top: 15px;
+}
+.navbar__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: column;
+  width: 53%;
+}
+.nav__links-head {
+  color: #fff;
+}
+.nav__links-head nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__links-head nav ul li {
+  list-style: none;
+}
+.nav__links-head nav ul li p {
+  font-family: "Mulish";
+  color: #96A1AC;
+}
+.nav__links-head nav ul li a {
+  text-decoration: none;
+  margin-left: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Mulish";
+}
+.nav__links-body {
+  padding-top: 20px;
+}
+.nav__links-body nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__links-body nav ul li {
+  list-style: none;
+}
+.nav__links-body nav ul li a {
+  text-decoration: none;
+  font-family: "Forum";
+  font-size: 19px;
+  color: #96A1AC;
+  transition: all 0.3s ease;
+}
+.nav__links-body nav ul li a:hover {
+  color: #FFDF74;
+}
+.nav__tel {
+  display: flex;
+  flex-direction: column;
+}
+.nav__tel-get button {
+  margin-left: 20px;
+  margin-top: 10px;
+}
