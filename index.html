@@ -66,9 +66,51 @@
             padding: 90px 0;
         }
     </style>
+    <!-- Marquiz script start -->
+    <script>
+        (function (w, d, s, o) {
+            var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js'; j.onload = function () {
+                if (document.readyState !== 'loading') Marquiz.init(o);
+                else document.addEventListener("DOMContentLoaded", function () {
+                    Marquiz.init(o);
+                });
+            };
+            d.head.insertBefore(j, d.head.firstElementChild);
+        })(window, document, 'script', {
+            host: '//quiz.marquiz.ru',
+            region: 'eu',
+            id: '63919d31fe6552004fcaaf41',
+            autoOpen: 10,
+            autoOpenFreq: 'once',
+            openOnExit: false,
+            disableOnMobile: false
+        }
+        );
+    </script>
+    <!-- Marquiz script end -->
+    <script type="text/javascript">
+        var utmStatConf = { projectId: "ee6fcc684333864416f5fb45b654000d", replaceTextElements: [], hasJivosite: false, hasCarrotQuest: false, hasMetrika: false, hasAnalytics: false, useCookieSync: false };
+        (function (u, t, m) {
+            var s = u.createElement(t), n = u.getElementsByTagName(t)[0];
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = m + "?v=" + Date.now();
+            n.parentNode.insertBefore(s, n);
+        })(document, "script", "//static.utmstat.com/client.min.js");
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script
+        type="text/javascript"> (function (m, e, t, r, i, k, a) { m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) }; m[i].l = 1 * new Date(); for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } } k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a) })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(74243137, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true }); </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/74243137" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript> <!-- /Yandex.Metrika counter -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGRZ28L" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header>
         <section class="info">
             <div class="navbar">
@@ -465,6 +507,27 @@
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="./assets/plugins/slick/slick-1.8.1/slick/slick.min.js"></script>
     <script src="./assets/jquery/script.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWBLSL9J78"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-YWBLSL9J78');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PGRZ28L');</script>
+    <!-- End Google Tag Manager -->
+
+
 </body>
 
 </html>
