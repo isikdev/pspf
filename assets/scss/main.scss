@@ -161,6 +161,8 @@ img {
             margin-top: 14px;
         }
     }
+}
+.info {
     &__get-list {
         margin-top: 50px;
         margin-left: 80px;
@@ -174,7 +176,6 @@ img {
     }
     &__get-list-btn {
         position: relative;
-        max-width: 30%;
         a {
             text-decoration: none;
             text-transform: uppercase;
@@ -195,10 +196,14 @@ img {
         margin-left: 60px;
         margin-top: 10px;
     }
+    &__get-list-wrap {
+        max-width: 35%;
+    }
 }
 .production {
-    padding: 90px 0;
+    // padding: 90px 0;
     &__intro {
+        padding-top: 60px;
         h1 {
             font-family: "Forum";
             font-size: 38px;
@@ -216,6 +221,9 @@ img {
             display: flex;
             justify-content: center;
         }
+    }
+    &__content {
+        padding: 0px 0;
     }
     &__slider-item {
         display: flex;
@@ -309,4 +317,211 @@ img {
             }
         }
     }
+}
+.about {
+    &__intro {
+        h1 {
+            font-family: "Forum";
+            font-size: 38px;
+            font-weight: 400;
+            line-height: 42px;
+            text-align: center;
+            text-transform: uppercase;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-image: $gold-grandient;
+        }
+        img {
+            margin: 30px auto;
+            display: flex;
+            justify-content: center;
+        }
+        p {
+            font-family: "Mulish";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+            color: #fff;
+        }
+    }
+    &__info-intro {
+        img {
+            margin: 10px auto;
+            display: flex;
+            justify-content: center;
+            object-fit: cover;
+            width: 77px;
+            height: 120px;
+        }
+        h1 {
+            font-family: "Forum";
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 42px;
+            text-align: center;
+            text-transform: uppercase;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-image: $gold-grandient;
+            margin-top: 20px;
+        }
+        p {
+            font-family: "Mulish";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    &__info-card-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__info-cards {
+        margin-top: 71px;
+    }
+    &__give-item {
+        margin: 82px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p {
+            font-family: "Mulish";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+            color: #fff;
+        }
+    }
+    &__give-get-center {
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    &__give-get-list {
+        p {
+            font-size: 14px;
+        }
+    }
+}
+.work {
+    &__intro {
+        padding-top: 80px;
+        h1 {
+            font-family: "Forum";
+            font-size: 38px;
+            font-weight: 400;
+            line-height: 42px;
+            text-align: center;
+            text-transform: uppercase;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-image: $gold-grandient;
+        }
+        img {
+            margin: 30px auto;
+            display: flex;
+            justify-content: center;
+        }
+        p {
+            font-family: "Mulish";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+            color: #fff;
+        }
+    }
+    &__slider {
+        margin-top: 48px;
+    }
+    &__slider-item {
+        padding: 0 12px;
+    }
+    &__forms {
+        margin-top: 95px;
+        form {
+            display: flex;
+            justify-content: center;
+            input {
+                padding: 12px 24px;
+                box-shadow: 10px 10px 14px 0px #00000026;
+                border-radius: 100px;
+                outline: none;
+                margin-left: 21px;
+            }
+            button {
+                margin-left: 21px;
+                text-transform: uppercase;
+                box-shadow: 10px 10px 14px 0px #00000026;
+            }
+        }
+    }
+}
+.reviews {
+    &__intro {
+        h1 {
+            font-family: "Forum";
+            font-size: 38px;
+            font-weight: 400;
+            line-height: 42px;
+            text-align: center;
+            text-transform: uppercase;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-image: $gold-grandient;
+        }
+        img {
+            margin: 30px auto;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    &__slider-item {
+        margin: 0 10px;
+    }
+}
+.payment {
+    &__intro {
+        margin: 40px 0;
+        h1 {
+            font-family: "Forum";
+            font-size: 38px;
+            font-weight: 400;
+            line-height: 42px;
+            text-align: center;
+            text-transform: uppercase;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-image: $gold-grandient;
+        }
+        img {
+            margin: 30px auto;
+            display: flex;
+            justify-content: center;
+        }
+        p {
+            font-family: "Mulish";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+            color: #fff;
+        }
+    }
+}
+.delivery__intro {
+    margin-top: 150px;
 }
