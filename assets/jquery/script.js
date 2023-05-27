@@ -1,8 +1,8 @@
 $('.production__slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
     slidesToShow: 1,
-    slideToScroll: 1,
-    infinity: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    arrows: true,   
+    centerMode: true,
+    variableWidth: true
 });

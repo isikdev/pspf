@@ -243,9 +243,9 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
   text-align: center;
   max-width: 300px;
+  margin: 0 30px;
 }
 .production__slider-item img {
   margin: 0 auto;
