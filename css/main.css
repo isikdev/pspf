@@ -218,3 +218,114 @@ img {
   margin-left: 60px;
   margin-top: 10px;
 }
+
+.production {
+  padding: 90px 0;
+}
+.production__intro h1 {
+  font-family: "Forum";
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(0deg, #B1840E -11.43%, #FFE175 57.73%, #A77C22 109.19%, #FFF58C 158.08%, #8D5A07 192.86%);
+}
+.production__intro img {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+.production__slider-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 300px;
+}
+.production__slider-item img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+}
+.production__slider-item h1 {
+  font-family: "Forum";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 31px;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(0deg, #B1840E -11.43%, #FFE175 57.73%, #A77C22 109.19%, #FFF58C 158.08%, #8D5A07 192.86%);
+  margin-bottom: 36px;
+  text-transform: uppercase;
+}
+.production__slider-info {
+  margin: 20px 0;
+}
+.production__slider-info-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  border-bottom: 2px dotted #96A1AC;
+}
+.production__slider-info-text h4 {
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #91959C;
+}
+.production__slider-info-text p {
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #DDDFE4;
+}
+.production__slider-price button {
+  text-transform: uppercase;
+  box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.1490196078);
+  font-family: "Forum";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: center;
+  padding: 17px 35px;
+}
+.production__slider-price-text {
+  display: flex;
+  justify-content: space-between;
+}
+.production__slider-price-text p {
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #91959C;
+}
+.production__slider-price-text h1 {
+  font-family: "Forum";
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.production__slider-price-text h1 span {
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
