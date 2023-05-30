@@ -1,0 +1,11 @@
+@media screen and (max-width: 1096px) {
+    * {
+        border: 1px solid red;
+    }
+    .nav__links {
+        display: none;
+    }
+    .nav__tel-get button {
+        display: none;
+    }
+}

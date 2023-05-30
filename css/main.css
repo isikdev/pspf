@@ -41,6 +41,17 @@
   margin-top: 34px;
 }
 
+@media screen and (max-width: 1096px) {
+  * {
+    border: 1px solid red;
+  }
+  .nav__links {
+    display: none;
+  }
+  .nav__tel-get button {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -64,9 +75,6 @@ img {
      object-fit: cover;
 }
 
-.navbar {
-  margin-top: 15px;
-}
 .navbar__content {
   display: flex;
   justify-content: space-between;
@@ -196,7 +204,7 @@ img {
 }
 .info__get-list img {
   position: absolute;
-  z-index: 10000;
+  z-index: 900;
   left: -100px;
   top: -22px;
 }
@@ -427,6 +435,7 @@ img {
 }
 .about__give-get-list p {
   font-size: 14px;
+  color: #000;
 }
 
 .work__intro {
@@ -626,4 +635,5 @@ img {
   margin: 20px auto;
   display: flex;
   justify-content: center;
+  max-width: 30%;
 }

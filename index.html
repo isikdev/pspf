@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ППК - Продажа и производство премиум каминов</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/popup.css">
     <link rel="stylesheet" href="./assets/plugins/slick/slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="./assets/plugins/slick/slick-1.8.1/slick/slick.css">
     <style>
@@ -65,6 +66,26 @@
             background-size: cover;
             padding: 90px 0;
         }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: .6s ease;
+            background: transparent;
+            margin-top: 15px;
+        }
+
+        .navbar__color {
+            background-color: #000;
+            padding: 20px 0;
+            margin-top: 0;
+        }
+
+        .body-hidden {
+            overflow: hidden;
+        }
     </style>
     <!-- Marquiz script start -->
     <script>
@@ -106,7 +127,213 @@
     </noscript> <!-- /Yandex.Metrika counter -->
 </head>
 
-<body>
+<body class="body">
+    <!-- popup -->
+    <!-- Заказать звонок -->
+    <div class="popup__wrapper popup__tel">
+        <div class="popup">
+            <div class="popup__container">
+                <h1 class="popup__intro">Заказать звонок</h1>
+                <div class="popup__form">
+                    <form action="#">
+                        <input type="text" placeholder="Введите имя">
+                        <input type="tel" placeholder=" + 7 (___)">
+                        <input type="email" placeholder="Введите e-mail">
+                        <button class="main__btn">Отправить</button>
+                    </form>
+                </div>
+                <div class="popup__close">
+                    <button class="nav__tel-get-item give__tel-close"><img src="./assets/img/ico/close.svg" alt="close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Заказать звонок -->
+
+
+
+    <!-- Получить каталог -->
+    <div class="popup__wrapper popup__catalog">
+        <div class="popup">
+            <div class="popup__container">
+                <h1 class="popup__intro">Получить каталог</h1>
+                <div class="popup__form">
+                    <form action="#">
+                        <input type="text" placeholder="Введите имя">
+                        <input type="tel" placeholder=" + 7 (___)">
+                        <input type="email" placeholder="Введите e-mail">
+                        <button class="main__btn-popup">Отправить</button>
+                    </form>
+                </div>
+                <div class="popup__close">
+                    <button class="nav__tel-get-item close give__catalog-close"><img src="./assets/img/ico/close.svg" alt="close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end получить каталог -->
+
+    <!-- Купить камин -->
+    <div class="popup__wrapper popup__camin">
+        <div class="popup">
+            <div class="popup__container">
+                <h1 class="popup__intro">Купить камин</h1>
+                <div class="popup__form">
+                    <form action="#">
+                        <input type="text" placeholder="Введите имя">
+                        <input type="tel" placeholder=" + 7 (___)">
+                        <input type="email" placeholder="Введите e-mail">
+                        <button class="main__btn-popup">Отправить</button>
+                    </form>
+                </div>
+                <div class="popup__close">
+                    <button class="nav__tel-get-item give__kamin-close"><img src="./assets/img/ico/close.svg" alt="close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Купить камин -->
+
+
+    <!-- Обсудить проект -->
+    <div class="popup__wrapper popup__project">
+        <div class="popup">
+            <div class="popup__container">
+                <h1 class="popup__intro">Обсудить проект</h1>
+                <div class="popup__form">
+                    <form action="#">
+                        <input type="text" placeholder="Введите имя">
+                        <input type="tel" placeholder=" + 7 (___)">
+                        <input type="email" placeholder="Введите e-mail">
+                        <button class="main__btn-popup">Отправить</button>
+                    </form>
+                </div>
+                <div class="popup__close">
+                    <button class="nav__tel-get-item give__project-close"><img src="./assets/img/ico/close.svg" alt="close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Обсудить проект -->
+
+
+    <!-- Обсудить ваш проект -->
+    <div class="popup__wrapper popup__proposal">
+        <div class="popup">
+            <div class="popup__container">
+                <h1 class="popup__intro">Обсудить ваш проект</h1>
+                <div class="popup__form">
+                    <form action="#">
+                        <input type="text" placeholder="Введите имя">
+                        <input type="tel" placeholder=" + 7 (___)">
+                        <input type="email" placeholder="Введите e-mail">
+                        <button class="main__btn-popup">Отправить</button>
+                    </form>
+                </div>
+                <div class="popup__close">
+                    <button class="nav__tel-get-item give__proposal-close"><img src="./assets/img/ico/close.svg" alt="close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Обсудить ваш проект -->
+
+    <!-- Специальное предложение -->
+    <div class="popup__wrapper popup__special">
+        <div class="popup">
+            <div class="popup__container">
+                <h1 class="popup__intro">Специальное предложение</h1>
+                <div class="popup__form">
+                    <form action="#">
+                        <input type="text" placeholder="Введите имя">
+                        <input type="tel" placeholder=" + 7 (___)">
+                        <input type="email" placeholder="Введите e-mail">
+                        <button class="main__btn-popup">Отправить</button>
+                    </form>
+                </div>
+                <div class="popup__close">
+                    <button class="nav__tel-get-item give__special-close"><img src="./assets/img/ico/close.svg" alt="close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Специальное предложение -->
+
+
+    <!-- Хочу такой же -->
+    <div class="popup__wrapper popup__want">
+        <div class="popup">
+            <div class="popup__container">
+                <h1 class="popup__intro">Хочу такой же</h1>
+                <div class="popup__form">
+                    <form action="#">
+                        <input type="text" placeholder="Введите имя">
+                        <input type="tel" placeholder=" + 7 (___)">
+                        <input type="email" placeholder="Введите e-mail">
+                        <button class="main__btn-popup">Отправить</button>
+                    </form>
+                </div>
+                <div class="popup__close">
+                    <button class="nav__tel-get-item give__want-close"><img src="./assets/img/ico/close.svg" alt="close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Хочу такой же -->
+
+
+    <!-- связаться с менеджером -->
+    <div class="popup__wrapper popup__manager">
+        <div class="popup">
+            <div class="popup__container">
+                <h1 class="popup__intro">Связаться с менеджером</h1>
+                <div class="popup__form">
+                    <form action="#">
+                        <input type="text" placeholder="Введите имя">
+                        <input type="tel" placeholder=" + 7 (___)">
+                        <input type="email" placeholder="Введите e-mail">
+                        <button class="main__btn-popup">Отправить</button>
+                    </form>
+                </div>
+                <div class="popup__close">
+                    <button class="nav__tel-get-item give__manager-close"><img src="./assets/img/ico/close.svg" alt="close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end связаться с менеджером -->
+
+    <!-- заказать -->
+    <div class="popup__wrapper popup__order">
+        <div class="popup">
+            <div class="popup__container">
+                <h1 class="popup__intro">Заказать</h1>
+                <div class="popup__form">
+                    <form action="#">
+                        <input type="text" placeholder="Введите имя">
+                        <input type="tel" placeholder=" + 7 (___)">
+                        <input type="email" placeholder="Введите e-mail">
+                        <button class="main__btn-popup">Отправить</button>
+                    </form>
+                </div>
+                <div class="popup__close">
+                    <button class="nav__tel-get-item give__order-close"><img src="./assets/img/ico/close.svg" alt="close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end заказать -->
+
+
+    <!-- end popup -->
+
+
+
+
+
+
+
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGRZ28L" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
@@ -149,7 +376,7 @@
                                 <a class="solid__text" href="tel:+8-800-201-75-78">8-800-201-75-78</a>
                             </div>
                             <div class="nav__tel-get">
-                                <button class="main__btn">Заказать звонок</button>
+                                <button class="give__tel nav__tel-get-item main__btn">Заказать звонок</button>
                             </div>
                         </div>
                     </div>
@@ -200,7 +427,7 @@
                             <div class="info__get-list">
                                 <img src="./assets/img/mockup.png" alt="mockup">
                                 <div class="info__get-list-btn main__btn">
-                                    <div class="info__get-list-text">
+                                    <div class="info__get-list-text give__catalog">
                                         <a href="#">Получить каталог</a>
                                         <p>премиум каминов бесплатно</p>
                                     </div>
@@ -347,7 +574,7 @@
                             <div class="info__get-list">
                                 <img src="./assets/img/mockup.png" alt="mockup">
                                 <div class="info__get-list-btn main__btn">
-                                    <div class="info__get-list-text about__give-get-list">
+                                    <div class="info__get-list-text about__give-get-list give__catalog">
                                         <a href="#">Получить каталог</a>
                                         <p>премиум каминов бесплатно</p>
                                     </div>
@@ -384,7 +611,7 @@
                         <form action="#">
                             <input type="text" placeholder="Ваше имя">
                             <input type="tel" placeholder="Ваш телефон">
-                            <button class="main__btn work__btn">Обсудить ваш проект</button>
+                            <button class="main__btn give__project">Обсудить проект</button>
                         </form>
                     </div>
                 </div>
@@ -412,7 +639,7 @@
                         <form action="#">
                             <input type="text" placeholder="Ваше имя">
                             <input type="tel" placeholder="Ваш телефон">
-                            <button class="main__btn work__btn">Обсудить ваш проект</button>
+                            <button class="main__btn give__proposal">Обсудить ваш проект</button>
                         </form>
                     </div>
                 </div>
@@ -463,7 +690,7 @@
                         <div class="workers__content-img">
                             <img src="./assets/img/mockup-3-2.png" alt="mockup">
                         </div>
-                        <button class="main__btn">получить специальное предложение</button>
+                        <button class="main__btn give__special">получить специальное предложение</button>
                     </div>
                 </div>
             </div>
@@ -498,7 +725,7 @@
                         </div>
                     </div>
                     <div class="contact__get-item">
-                        <button class="main__btn">связаться с менеджером</button>
+                        <button class="main__btn give__manager">связаться с менеджером</button>
                     </div>
                 </div>
             </div>
@@ -506,7 +733,14 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="./assets/plugins/slick/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/plugins/sticky/sticky.js"></script>
+    <script src="src/jquery.custombox.js"></script>
     <script src="./assets/jquery/script.js"></script>
+    <!-- sticky -->
+    <script>
+
+    </script>
+    <!-- end sticky -->
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWBLSL9J78"></script>
     <script>
@@ -526,8 +760,6 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-PGRZ28L');</script>
     <!-- End Google Tag Manager -->
-
-
 </body>
 
 </html>

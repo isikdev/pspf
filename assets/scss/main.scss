@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import "_root";
 @import "_elements";
+@import "_responsive";
 
 * {
     margin: 0;
@@ -29,7 +30,7 @@ img {
 //     padding: 10px 0;
 // }
 .navbar {
-    margin-top: 15px;
+    // margin-top: 15px;
     &__content {
         display: flex;
         justify-content: space-between;
@@ -162,6 +163,7 @@ img {
         }
     }
 }
+
 .info {
     &__get-list {
         margin-top: 50px;
@@ -169,7 +171,7 @@ img {
         position: relative;
         img {
             position: absolute;
-            z-index: 10000;
+            z-index: 900;
             left: -100px;
             top: -22px;
         }
@@ -410,6 +412,7 @@ img {
     &__give-get-list {
         p {
             font-size: 14px;
+            color: #000;
         }
     }
 }
@@ -624,6 +627,7 @@ img {
             margin: 20px auto;
             display: flex;
             justify-content: center;
+            max-width: 30%;
         }
     }
 }
