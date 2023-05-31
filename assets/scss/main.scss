@@ -696,6 +696,7 @@ img {
     }
 }
 @media screen and (max-width: 1096px) {
+
     .container {
         max-width: 100%;
         width: 100%;
@@ -1028,5 +1029,11 @@ img {
     }
     .nav__links {
         width: 0;
+    }
+    .info__get-list-wrap-mobile {
+        display: block;
+    }
+    .info__get-list-btn .main__btn {
+        width: 100%;
     }
 }
