@@ -763,6 +763,7 @@ img {
     }
     .about__give-item {
         margin: 28px auto;
+        display: none;
     }
     .about__intro .chit {
         font-family: "Mulish";
@@ -775,7 +776,7 @@ img {
     }
     .about__info-card-item {
         flex-direction: column;
-        margin-left: 30px;
+        // margin-left: 30px;
     }
     .about__info-intro {
         display: flex;
@@ -785,6 +786,7 @@ img {
     }
     .about__intro-text {
         margin-left: 20px;
+        margin-top: 20px;
     }
     .about__intro-text h1,
     p {
