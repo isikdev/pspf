@@ -22,7 +22,7 @@
             background-image: url("./assets/img/bg/production_bg.png");
             background-repeat: no-repeat;
             background-size: cover;
-            padding: 16px 0;
+            padding: 100px 0;
         }
 
         .about {
@@ -30,6 +30,10 @@
             background-repeat: no-repeat;
             background-size: cover;
             padding: 90px 0;
+            position: relative;
+            z-index: 1;
+            margin-top: -100px;
+            padding-top: 100px;
         }
 
         .work {
@@ -58,6 +62,10 @@
             background-repeat: no-repeat;
             background-size: cover;
             padding: 90px 0;
+            position: relative;
+            z-index: 1;
+            margin-top: -100px;
+            padding-top: 100px;
         }
 
         .contact {
@@ -65,6 +73,10 @@
             background-repeat: no-repeat;
             background-size: cover;
             padding: 90px 0;
+            position: relative;
+            z-index: 1;
+            margin-top: -100px;
+            padding-top: 100px;
         }
 
         .navbar {
@@ -868,22 +880,34 @@
                     </div>
                     <div class="contact__wrapper">
                         <div class="contact__content-item content-item-gps">
-                            <img class="contact__content-item-gps" src="./assets/img/ico/gps.svg" alt="gps">
-                            <p>
-                                Россия, г. Москва, Варшавское шоссе, 170 г
-                            </p>
+                            <div class="contact__content-item-img">
+                                <img class="contact__content-item-gps" src="./assets/img/ico/gps.svg" alt="gps">
+                            </div>
+                            <div class="contact__content-item-text">
+                                <p>
+                                    Россия, г. Москва, Варшавское шоссе, 170 г
+                                </p>
+                            </div>
                         </div>
                         <div class="contact__content-item content-item-phone">
-                            <img class="contact__content-item-phone" src="./assets/img/ico/phone.svg" alt="phone">
-                            <p>
-                                8 (800) 551-78-06
-                            </p>
+                            <div class="contact__content-item-img">
+                                <img class="contact__content-item-phone" src="./assets/img/ico/phone.svg" alt="phone">
+                            </div>
+                            <div class="contact__content-item-text">
+                                <p>
+                                    8 (800) 551-78-06
+                                </p>
+                            </div>
                         </div>
                         <div class="contact__content-item content-item-mail">
-                            <img class="contact__content-item-mail" src="./assets/img/ico/mail.svg" alt="mail">
-                            <p>
-                                info@ppk77.ru
-                            </p>
+                            <div class="contact__content-item-img">
+                                <img class="contact__content-item-mail" src="./assets/img/ico/mail.svg" alt="mail">
+                            </div>
+                            <div class="contact__content-item-text">
+                                <p>
+                                    info@ppk77.ru
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="contact__get-item">
