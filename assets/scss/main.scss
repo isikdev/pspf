@@ -726,6 +726,9 @@ img {
         display: flex;
         align-items: flex-start;
     }
+    .info__get-list-mb {
+        display: none;
+    }
     .solid__text {
         font-size: 25px;
         margin-top: 9px;
@@ -927,7 +930,7 @@ img {
         margin: 17px auto;
     }
     .payment {
-        padding: 16px 0;
+        padding: 29px 0;
     }
     .payment__intro .chit {
         font-family: "Mulish";
@@ -949,6 +952,7 @@ img {
     }
     .delivery__intro .nth-child-2 {
         margin-top: 42px;
+        padding-bottom: 60px;
     }
     .workers {
         padding: 16px 0;
