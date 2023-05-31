@@ -41,17 +41,6 @@
   margin-top: 34px;
 }
 
-@media screen and (max-width: 1096px) {
-  * {
-    border: 1px solid red;
-  }
-  .nav__links {
-    display: none;
-  }
-  .nav__tel-get button {
-    display: none;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -73,6 +62,26 @@ body {
 img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.info__get-list-wrap-mobile {
+  display: none;
+}
+
+.info__get-list-mb {
+  display: none;
+}
+
+.chit {
+  display: none;
+}
+
+.give__proposal-mb {
+  display: none;
+}
+
+.info__text {
+  display: none;
 }
 
 .navbar__content {
@@ -135,6 +144,15 @@ img {
   margin-left: 20px;
   margin-top: 10px;
 }
+.nav__tel-burger {
+  display: none;
+  background: transparent;
+  border: 0 none;
+  outline: 0 none;
+}
+.nav__tel-item {
+  display: flex;
+}
 
 .info__content {
   padding: 50px 0 80px 0;
@@ -166,6 +184,43 @@ img {
   font-family: "Forum";
   line-height: 36px;
   font-weight: 400;
+}
+.info__intro-mobile {
+  display: none;
+  margin: 60px 0;
+}
+.info__intro-mobile h1 {
+  font-size: 54px;
+  font-family: "Forum";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(0deg, #B1840E -11.43%, #FFE175 57.73%, #A77C22 109.19%, #FFF58C 158.08%, #8D5A07 192.86%);
+}
+.info__intro-mobile p {
+  max-width: 70%;
+  font-family: "Forum";
+  font-size: 29px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #96A1AC;
+  margin-top: 16px;
+}
+.info__intro-mobile p span {
+  color: #CDD5DF;
+  font-family: "Forum";
+  line-height: 36px;
+  font-weight: 400;
+}
+.info__text p {
+  font-family: "Mulish";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #91959C;
+  margin-top: 24px;
 }
 .info__lists {
   display: flex;
@@ -636,4 +691,337 @@ img {
   display: flex;
   justify-content: center;
   max-width: 30%;
+}
+
+@media screen and (max-width: 1096px) {
+  .container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  .nav__linkss {
+    display: none;
+  }
+  .nav__tel-get {
+    display: none;
+  }
+  .nav__links-head {
+    display: none;
+  }
+  .nav__links-body {
+    display: none;
+  }
+  .nav__tel-burger {
+    display: block;
+  }
+  .nav__tel {
+    display: flex;
+  }
+  .nav__tel-item {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .solid__text {
+    font-size: 25px;
+    margin-top: 9px;
+    margin-right: 10px;
+  }
+  .info__get-list-btn a {
+    font-size: 23px;
+  }
+  .info {
+    background-size: cover;
+    padding: 10px 0;
+  }
+  .info__intro-mobile {
+    display: block;
+    margin: 80px 0;
+  }
+  .info__intro {
+    display: none;
+  }
+  .info__lists {
+    display: none;
+  }
+  .info__get-list-wrap {
+    display: none;
+  }
+  .info__content {
+    padding: 50px 0 55px 0;
+  }
+  .info__get-list-btn-mb {
+    max-width: 50%;
+  }
+  .production__intro {
+    padding-top: 0;
+  }
+  .production__intro-mx {
+    display: none;
+  }
+  .production__intro-mobile {
+    display: block;
+  }
+  .production__intro-mobile h1 {
+    margin-top: 16px;
+  }
+  .production__intro p {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #91959C;
+  }
+  .about__give-item {
+    margin: 28px auto;
+  }
+  .about__intro .chit {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #91959C;
+  }
+  .about__info-card-item {
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .about__info-intro {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    width: 100%;
+  }
+  .about__intro-text {
+    margin-left: 20px;
+  }
+  .about__intro-text h1,
+  p {
+    text-align: left;
+  }
+  .about__intro h1 {
+    margin-top: 30px;
+  }
+  .about__info-intro p {
+    max-width: 50%;
+    text-align: left;
+  }
+  .about__give-mx {
+    display: none;
+  }
+  .about__give-mobile {
+    display: block;
+  }
+  .info__get-list-mx {
+    display: none;
+  }
+  .info__get-list-form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+  .info__get-list-form input {
+    padding: 16px 5%;
+    border-radius: 100px;
+    box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.1490196078);
+  }
+  .work {
+    padding: 20px 0;
+  }
+  .work__forms form {
+    justify-content: left;
+  }
+  .work__froms form .give__project {
+    font-family: "Forum";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .work__intro {
+    padding-top: 0;
+  }
+  .work__intro h1 {
+    margin-top: 31px;
+  }
+  .work__intro .chit {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #91959C;
+  }
+  .work__form-input {
+    display: none;
+  }
+  .reviews {
+    padding-top: 30px;
+  }
+  .reviews__intro .chit {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #91959C;
+  }
+  .reviews__intro h1 {
+    margin-top: 30px;
+  }
+  .reviews__intro-slide p {
+    color: #fff;
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 22px;
+  }
+  .give__proposal-mx {
+    display: none;
+  }
+  .give__proposal-mb {
+    display: flex;
+    justify-content: left;
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    font-family: "Forum";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #221f14;
+  }
+  .work__forms {
+    position: relative;
+    margin-top: 16px;
+  }
+  .work__forms form button {
+    margin-left: 0;
+  }
+  .workers__subtitle-mx {
+    display: none;
+  }
+  .workers__subtitle-mb {
+    display: block;
+  }
+  .workers__content-img {
+    margin: 17px auto;
+  }
+  .payment {
+    padding: 16px 0;
+  }
+  .payment__intro .chit {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #91959C;
+  }
+  .payment__intro h1 {
+    margin: 20px auto;
+  }
+  .delivery__intro {
+    margin-top: 45px;
+  }
+  .delivery__intro p {
+    margin: 25px auto;
+  }
+  .delivery__intro .nth-child-2 {
+    margin-top: 42px;
+  }
+  .workers {
+    padding: 16px 0;
+  }
+  .workers__intro .chit {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #91959C;
+  }
+  .workers__intro h1 {
+    margin: 21px auto;
+  }
+  .workers__intro p {
+    margin-top: 24px;
+  }
+  .workers__content button {
+    width: 100%;
+  }
+  .contact {
+    padding: 67px 0;
+  }
+  .contact__intro .chit {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #91959C;
+  }
+  .contact__intro h1 {
+    margin-top: 30px;
+  }
+  .contact__content-item {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+  }
+  .contact__content-item p {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .contact__content-item-gps {
+    width: 23px;
+    height: 32px;
+  }
+  .contact__content-item-phone {
+    width: 27px;
+    height: 38px;
+  }
+  .contact__content-item-mail {
+    width: 27px;
+    height: 21px;
+  }
+  .content-item-gps {
+    max-width: 40%;
+  }
+  .contact__get-item {
+    margin-top: 75px;
+  }
+  .contact__get-item button {
+    max-width: 100%;
+    width: 100%;
+    font-family: "Forum";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .nav__links {
+    width: 0;
+  }
 }

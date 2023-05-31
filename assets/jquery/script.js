@@ -5,7 +5,19 @@ $('.production__slider').slick({
     centerMode: true,
     variableWidth: true,
     dots: false,
-    arrows: false
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 1016,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false,
+                variableWidth: false,
+            }
+        }
+    ]
 });
 $('.work__slider').slick({
     infinite: true,

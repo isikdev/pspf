@@ -138,3 +138,15 @@
 .popup-default {
     left: -120%;
 }
+@media screen and (max-width: 1096px) {
+    .popup {
+        left: 0;
+    }
+    .popup__intro {
+        font-size: 32px;
+    }
+    .popup__form form {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+}
