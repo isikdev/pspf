@@ -1,24 +1,23 @@
-$('.production__slider').slick({
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    centerMode: true,
-    variableWidth: true,
-    dots: false,
-    arrows: false,
-    responsive: [
-        {
-            breakpoint: 1016,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: false,
-                variableWidth: false,
-            }
-        }
-    ]
-});
+// $('.production__slider').slick({
+//     infinite: true,
+//     slidesToShow: 1,
+//     centerMode: true,
+//     variableWidth: true,
+//     dots: false,
+//     arrows: false,
+//     responsive: [
+//         {
+//             breakpoint: 1016,
+//             settings: {
+//                 slidesToShow: 1,
+//                 slidesToScroll: 1,
+//                 infinite: true,
+//                 dots: false,
+//                 variableWidth: false,
+//             }
+//         }
+//     ]
+// });
 $('.work__slider').slick({
     infinite: true,
     speed: 500,

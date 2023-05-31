@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    // border: 1px solid red;
 }
 .container {
     max-width: 1240px;
@@ -267,107 +268,61 @@ img {
     }
 }
 .production {
-    // padding: 90px 0;
+    padding: 90px 0;
     &__intro {
-        padding-top: 60px;
-        h1 {
-            font-family: "Forum";
-            font-size: 38px;
-            font-weight: 400;
-            line-height: 42px;
-            text-align: center;
-            text-transform: uppercase;
-            color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
-            background-image: $gold-grandient;
-        }
         img {
-            margin: 30px auto;
             display: flex;
             justify-content: center;
+            margin: 30px auto;
         }
-    }
-    &__content {
-        padding: 0px 0;
     }
     &__slider-item {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        max-width: 300px;
-        margin: 0 30px;
         img {
-            margin: 0 auto;
+            max-width: 30%;
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            max-width: 300px;
-        }
-        h1 {
-            font-family: "Forum";
-            font-size: 28px;
-            font-weight: 400;
-            line-height: 31px;
-            color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
-            background-image: $gold-grandient;
-            margin-bottom: 36px;
-            text-transform: uppercase;
+            margin: 20px auto;
         }
     }
-    &__slider-info {
-        margin: 20px 0;
+    &__slider-info-wrapper {
+        max-width: 320px;
+        margin: 20px auto;
     }
-    &__slider-info-text {
+    &__slider-info-item {
         display: flex;
         justify-content: space-between;
-        margin: 10px 0;
-        border-bottom: 2px dotted $gray;
-        h4 {
-            font-family: "Mulish";
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 20px;
-            text-align: left;
-            color: $dark-gray;
-        }
+        align-items: center;
+        border-bottom: 1px dashed $dark-gray;
+        margin: 20px auto;
         p {
             font-family: "Mulish";
             font-size: 16px;
             font-weight: 400;
             line-height: 20px;
+            letter-spacing: 0em;
             text-align: left;
             color: $dark-white;
         }
     }
-    &__slider-price {
-        button {
-            text-transform: uppercase;
-            box-shadow: 10px 10px 14px 0px #00000026;
-            font-family: "Forum";
-            font-size: 24px;
-            font-weight: 400;
-            line-height: 17px;
-            text-align: center;
-            padding: 17px 35px;
-        }
-    }
-    &__slider-price-text {
+    &__slider-info-text {
         display: flex;
         justify-content: space-between;
-        p {
-            font-family: "Mulish";
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 19px;
-            text-align: left;
-            color: $dark-gray;
-        }
+        align-items: center;
+        color: $dark-gray;
+        font-family: "Mulish";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    &__slider-info-price {
+        max-width: 320px;
+        margin: 0px auto;
         h1 {
             font-family: "Forum";
-            font-size: 33px;
+            font-size: 43px;
             font-weight: 400;
             line-height: 47px;
             letter-spacing: 0em;
@@ -381,6 +336,12 @@ img {
                 letter-spacing: 0em;
                 text-align: left;
             }
+        }
+        button {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 20px auto;
         }
     }
 }
@@ -696,7 +657,6 @@ img {
     }
 }
 @media screen and (max-width: 1096px) {
-
     .container {
         max-width: 100%;
         width: 100%;
