@@ -46,43 +46,43 @@ let body = $(".body")
 
 $(".give__tel, .give__tel-close").on("click", function () {
     $(".popup__tel").toggleClass("popup-active");
-    // body.toggleClass("body-hidden")
+    body.toggleClass("body-hidden")
 });
 $(".give__catalog, .give__catalog-close").on("click", function () {
     $(".popup__catalog").toggleClass("popup-active");
-    // body.toggleClass("body-hidden")
+    body.toggleClass("body-hidden")
 });
 $(".give__kamin, .give__kamin-close").on("click", function () {
     $(".popup__camin").toggleClass("popup-active");
-    // body.toggleClass("body-hidden")
+    body.toggleClass("body-hidden")
 });
 $(".give__project, .give__project-close").on("click", function () {
     $(".popup__project").toggleClass("popup-active");
-    // body.toggleClass("body-hidden")
+    body.toggleClass("body-hidden")
 });
 $(".give__proposal, .give__proposal-close").on("click", function () {
     $(".popup__proposal").toggleClass("popup-active");
-    // body.toggleClass("body-hidden")
+    body.toggleClass("body-hidden")
 });
 $(".give__want, .give__want-close").on("click", function () {
     $(".popup__want").toggleClass("popup-active");
-    // body.toggleClass("body-hidden")
+    body.toggleClass("body-hidden")
 });
 $(".give__special, .give__special-close").on("click", function () {
     $(".popup__special").toggleClass("popup-active");
-    // body.toggleClass("body-hidden")
+    body.toggleClass("body-hidden")
 });
 $(".give__manager, .give__manager-close").on("click", function () {
     $(".popup__manager").toggleClass("popup-active");
-    // body.toggleClass("body-hidden")
+    body.toggleClass("body-hidden")
 });
 $(".give__contact, .give__contact-close").on("click", function () {
     $(".popup__contact").toggleClass("popup-active");
-    // body.toggleClass("body-hidden")
+    body.toggleClass("body-hidden")
 });
 $(".give__order, .give__order-close").on("click", function () {
     $(".popup__order").toggleClass("popup-active");
-    // body.toggleClass("body-hidden")
+    body.toggleClass("body-hidden")
 });
 // переменные 
 /// BUTTONS
