@@ -1,4 +1,4 @@
-// new WOW().init();
+new WOW().init();
 $('.work__slider').slick({
     infinite: true,
     speed: 500,
