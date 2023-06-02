@@ -120,3 +120,9 @@ let popup__specialClose = $(".give__special-close");
 let popup__managerClose = $(".give__manager-close");
 let popup__contactClose = $(".give__contact-close")
 let popup__orderClose = $(".give__order-close");
+
+
+$(".nav__tel-burger").on("click", function () {
+    $(".mobile__menu-wrapper").toggleClass("mobile__menu-wrapper-active");
+    body.toggleClass("body-hidden")
+});
