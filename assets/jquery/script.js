@@ -1,23 +1,4 @@
-// $('.production__slider').slick({
-//     infinite: true,
-//     slidesToShow: 1,
-//     centerMode: true,
-//     variableWidth: true,
-//     dots: false,
-//     arrows: false,
-//     responsive: [
-//         {
-//             breakpoint: 1016,
-//             settings: {
-//                 slidesToShow: 1,
-//                 slidesToScroll: 1,
-//                 infinite: true,
-//                 dots: false,
-//                 variableWidth: false,
-//             }
-//         }
-//     ]
-// });
+// new WOW().init();
 $('.work__slider').slick({
     infinite: true,
     speed: 500,
@@ -29,12 +10,24 @@ $('.work__slider').slick({
 });
 $(".reviews__slider").slick({
     infinite: true,
-    speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     centerMode: true,
-    variableWidth: true,
+    centerPadding: '60px',
     dots: false,
-    arrows: false
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 1016,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false,
+                variableWidth: false,
+            }
+        }
+    ]
 });
 $(document).scroll(function (e) {
     $(window).scrollTop() > 100 ? $('.navbar').addClass('navbar__color') : $('.navbar').removeClass('navbar__color');
