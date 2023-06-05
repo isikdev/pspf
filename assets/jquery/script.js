@@ -1,32 +1,59 @@
 new WOW().init();
-$('.work__slider').slick({
+$('.production__slider').slick({
+    dots: false,
     infinite: true,
-    speed: 500,
+    speed: 300,
     slidesToShow: 1,
-    centerMode: true,
-    variableWidth: true,
-    dots: false,
-    arrows: false,
-});
-$(".reviews__slider").slick({
-    infinite: true,
-    slidesToShow: 3,
+    fade: true,
     slidesToScroll: 1,
-    centerMode: true,
-    centerPadding: '60px',
-    dots: false,
-    arrows: false,
+    nextArrow: "<div class='next'>",
+    prevArrow: "<div class='prev'>",
     responsive: [
         {
-            breakpoint: 1016,
+            breakpoint: 768,
             settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: false,
-                variableWidth: false,
+                dots: true,
+                arrows: false,
             }
-        }
+        },
+    ]
+});
+$(".reviews__slider").slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    fade: true,
+    slidesToScroll: 1,
+    nextArrow: "<div class='next'>",
+    prevArrow: "<div class='prev'>",
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                dots: true,
+                arrows: false,
+            }
+        },
+    ]
+});
+$(".work__item").slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    fade: true,
+    slidesToScroll: 1,
+    nextArrow: "<div class='next'>",
+    prevArrow: "<div class='prev'>",
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                dots: true,
+                arrows: false,
+            }
+        },
     ]
 });
 $(document).scroll(function (e) {
